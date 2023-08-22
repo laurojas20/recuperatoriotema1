@@ -20,6 +20,7 @@ namespace recuperatoriotema1.consola
                     altura = int.Parse(Console.ReadLine());
                     Console.Write("Ingresar el ancho del prisma (PONER 0 EN LARGO, ALTURA Y ANCHO PARA FINALIZAR): ");
                     ancho = int.Parse(Console.ReadLine());
+
                     if (largo > 0 && altura > 0 && ancho > 0)
                     {
                         contador = contador + 1;
